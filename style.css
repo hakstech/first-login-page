@@ -1,0 +1,161 @@
+/*This CSS is for both the Login-pages  */
+body{
+    background-color: #9400D3;
+    font-family: sans-serif;
+}
+.fa-brands{
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px; 
+}
+.fa-facebook{
+    background-color: blue;
+    color: white;
+    font-size: 21px;
+}
+.fa-google{
+    background-color: red;
+    color: white;
+}
+.fa-twitter{
+    background-color: #55acee;
+    color: white;
+}
+.fa-arrow-left{
+    padding-right: 250px;
+    margin-top: 15px;
+    color: white;
+}
+.div1{
+    height: 450px;
+    width: 300px;
+    background: linear-gradient(rgb(148, 2, 148),#9400D3, rgb(50, 50, 226));
+    border-radius: 12px;
+    box-shadow: 10px 8px 10px ;
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    text-align: center;   
+}
+.div2{
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 10px 8px 10px ;
+    position: absolute;
+    top: 80px;
+    left: 280px;
+}
+.lines{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.lines::before,
+.lines::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid white;
+}
+
+.lines span{
+    padding: 0 10px;
+}
+.ppp{
+    border: solid 1px white;
+    border-radius: 12px;
+    right: 25px;
+    position: absolute;
+}
+.username{
+    top: 85px;
+    color: white;
+    width: 230px;
+    height: 2.2em;
+    background-color: transparent;
+    padding-inline-start: 17px;
+}
+.password{
+    top: 125px;
+    color: white;
+    width: 230px;
+    height: 2.2em;
+    background-color: transparent;
+    padding-inline-start: 17px;
+}
+button{
+    top: 165px;
+    color: black;
+    width: 250px;
+    height: 2.6em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(76, 76, 243);
+}
+p{
+    color: white;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+
+/*This CSS is for the white Login-page only*/
+.fa-2{
+    padding-right: 250px;
+    margin-top: 15px;
+    color: #9400D3;
+}
+.pppp{
+    border: solid 1px rgb(75, 72, 72);
+    border-radius: 12px;
+    right: 25px;
+    position: absolute;
+}
+.username2{
+    top: 85px;
+    color: black;
+    width: 230px;
+    height: 2.2em;
+    background-color: transparent;
+    padding-inline-start: 17px;
+}
+.password2{
+    top: 125px;
+    color: black;
+    width: 230px;
+    height: 2.2em;
+    background-color: transparent;
+    padding-inline-start: 17px;
+}
+.p2{
+     color: black;
+    font-size: 12px;
+}
+.lines2{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.lines2::before,
+.lines2::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+}
+
+.lines2 span{
+    padding: 0 10px;
+}
+.button2{
+    background-color: #9400D3;
+}    
+.button2:hover{
+    background-color: #a303ff;
+}
